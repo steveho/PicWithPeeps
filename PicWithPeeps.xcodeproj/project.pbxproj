@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		274A735D13BBC31D00DC8FC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274A735C13BBC31D00DC8FC9 /* UIKit.framework */; };
+		274A735F13BBC31D00DC8FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274A735E13BBC31D00DC8FC9 /* Foundation.framework */; };
+		274A736113BBC31D00DC8FC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274A736013BBC31D00DC8FC9 /* CoreGraphics.framework */; };
+		274A736713BBC31D00DC8FC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 274A736513BBC31D00DC8FC9 /* InfoPlist.strings */; };
+		274A736A13BBC31D00DC8FC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 274A736913BBC31D00DC8FC9 /* main.m */; };
+		274A736D13BBC31D00DC8FC9 /* PicWithPeepsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 274A736C13BBC31D00DC8FC9 /* PicWithPeepsAppDelegate.m */; };
+		274A737013BBC31D00DC8FC9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 274A736E13BBC31D00DC8FC9 /* MainWindow.xib */; };
+		274A737313BBC31D00DC8FC9 /* PicWithPeepsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274A737213BBC31D00DC8FC9 /* PicWithPeepsViewController.m */; };
+		274A737613BBC31E00DC8FC9 /* PicWithPeepsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 274A737413BBC31E00DC8FC9 /* PicWithPeepsViewController.xib */; };
+		274A737D13BBC31E00DC8FC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274A735C13BBC31D00DC8FC9 /* UIKit.framework */; };
+		274A737E13BBC31E00DC8FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274A735E13BBC31D00DC8FC9 /* Foundation.framework */; };
+		274A737F13BBC31E00DC8FC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274A736013BBC31D00DC8FC9 /* CoreGraphics.framework */; };
+		274A738713BBC31E00DC8FC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 274A738513BBC31E00DC8FC9 /* InfoPlist.strings */; };
+		274A738A13BBC31E00DC8FC9 /* PicWithPeepsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 274A738913BBC31E00DC8FC9 /* PicWithPeepsTests.h */; };
+		274A738C13BBC31E00DC8FC9 /* PicWithPeepsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274A738B13BBC31E00DC8FC9 /* PicWithPeepsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		274A738013BBC31E00DC8FC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274A734F13BBC31D00DC8FC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274A735713BBC31D00DC8FC9;
+			remoteInfo = PicWithPeeps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		274A735813BBC31D00DC8FC9 /* PicWithPeeps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicWithPeeps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		274A735C13BBC31D00DC8FC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		274A735E13BBC31D00DC8FC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		274A736013BBC31D00DC8FC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		274A736413BBC31D00DC8FC9 /* PicWithPeeps-Info.plist */ = {isa = PBXFileReference; path = "PicWithPeeps-Info.plist"; sourceTree = "<group>"; };
+		274A736613BBC31D00DC8FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		274A736813BBC31D00DC8FC9 /* PicWithPeeps-Prefix.pch */ = {isa = PBXFileReference; path = "PicWithPeeps-Prefix.pch"; sourceTree = "<group>"; };
+		274A736913BBC31D00DC8FC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		274A736B13BBC31D00DC8FC9 /* PicWithPeepsAppDelegate.h */ = {isa = PBXFileReference; path = PicWithPeepsAppDelegate.h; sourceTree = "<group>"; };
+		274A736C13BBC31D00DC8FC9 /* PicWithPeepsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicWithPeepsAppDelegate.m; sourceTree = "<group>"; };
+		274A736F13BBC31D00DC8FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		274A737113BBC31D00DC8FC9 /* PicWithPeepsViewController.h */ = {isa = PBXFileReference; path = PicWithPeepsViewController.h; sourceTree = "<group>"; };
+		274A737213BBC31D00DC8FC9 /* PicWithPeepsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicWithPeepsViewController.m; sourceTree = "<group>"; };
+		274A737513BBC31E00DC8FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PicWithPeepsViewController.xib; sourceTree = "<group>"; };
+		274A737C13BBC31E00DC8FC9 /* PicWithPeepsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicWithPeepsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		274A738413BBC31E00DC8FC9 /* PicWithPeepsTests-Info.plist */ = {isa = PBXFileReference; path = "PicWithPeepsTests-Info.plist"; sourceTree = "<group>"; };
+		274A738613BBC31E00DC8FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		274A738813BBC31E00DC8FC9 /* PicWithPeepsTests-Prefix.pch */ = {isa = PBXFileReference; path = "PicWithPeepsTests-Prefix.pch"; sourceTree = "<group>"; };
+		274A738913BBC31E00DC8FC9 /* PicWithPeepsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicWithPeepsTests.h; sourceTree = "<group>"; };
+		274A738B13BBC31E00DC8FC9 /* PicWithPeepsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicWithPeepsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		274A735513BBC31D00DC8FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A735D13BBC31D00DC8FC9 /* UIKit.framework in Frameworks */,
+				274A735F13BBC31D00DC8FC9 /* Foundation.framework in Frameworks */,
+				274A736113BBC31D00DC8FC9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A737813BBC31E00DC8FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A737D13BBC31E00DC8FC9 /* UIKit.framework in Frameworks */,
+				274A737E13BBC31E00DC8FC9 /* Foundation.framework in Frameworks */,
+				274A737F13BBC31E00DC8FC9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		274A734D13BBC31D00DC8FC9 = {
+			isa = PBXGroup;
+			children = (
+				274A736213BBC31D00DC8FC9 /* PicWithPeeps */,
+				274A738213BBC31E00DC8FC9 /* PicWithPeepsTests */,
+				274A735B13BBC31D00DC8FC9 /* Frameworks */,
+				274A735913BBC31D00DC8FC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		274A735913BBC31D00DC8FC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				274A735813BBC31D00DC8FC9 /* PicWithPeeps.app */,
+				274A737C13BBC31E00DC8FC9 /* PicWithPeepsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		274A735B13BBC31D00DC8FC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				274A735C13BBC31D00DC8FC9 /* UIKit.framework */,
+				274A735E13BBC31D00DC8FC9 /* Foundation.framework */,
+				274A736013BBC31D00DC8FC9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		274A736213BBC31D00DC8FC9 /* PicWithPeeps */ = {
+			isa = PBXGroup;
+			children = (
+				274A736B13BBC31D00DC8FC9 /* PicWithPeepsAppDelegate.h */,
+				274A736C13BBC31D00DC8FC9 /* PicWithPeepsAppDelegate.m */,
+				274A736E13BBC31D00DC8FC9 /* MainWindow.xib */,
+				274A737113BBC31D00DC8FC9 /* PicWithPeepsViewController.h */,
+				274A737213BBC31D00DC8FC9 /* PicWithPeepsViewController.m */,
+				274A737413BBC31E00DC8FC9 /* PicWithPeepsViewController.xib */,
+				274A736313BBC31D00DC8FC9 /* Supporting Files */,
+			);
+			path = PicWithPeeps;
+			sourceTree = "<group>";
+		};
+		274A736313BBC31D00DC8FC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				274A736413BBC31D00DC8FC9 /* PicWithPeeps-Info.plist */,
+				274A736513BBC31D00DC8FC9 /* InfoPlist.strings */,
+				274A736813BBC31D00DC8FC9 /* PicWithPeeps-Prefix.pch */,
+				274A736913BBC31D00DC8FC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		274A738213BBC31E00DC8FC9 /* PicWithPeepsTests */ = {
+			isa = PBXGroup;
+			children = (
+				274A738913BBC31E00DC8FC9 /* PicWithPeepsTests.h */,
+				274A738B13BBC31E00DC8FC9 /* PicWithPeepsTests.m */,
+				274A738313BBC31E00DC8FC9 /* Supporting Files */,
+			);
+			path = PicWithPeepsTests;
+			sourceTree = "<group>";
+		};
+		274A738313BBC31E00DC8FC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				274A738413BBC31E00DC8FC9 /* PicWithPeepsTests-Info.plist */,
+				274A738513BBC31E00DC8FC9 /* InfoPlist.strings */,
+				274A738813BBC31E00DC8FC9 /* PicWithPeepsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		274A735713BBC31D00DC8FC9 /* PicWithPeeps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274A738F13BBC31E00DC8FC9 /* Build configuration list for PBXNativeTarget "PicWithPeeps" */;
+			buildPhases = (
+				274A735413BBC31D00DC8FC9 /* Sources */,
+				274A735513BBC31D00DC8FC9 /* Frameworks */,
+				274A735613BBC31D00DC8FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicWithPeeps;
+			productName = PicWithPeeps;
+			productReference = 274A735813BBC31D00DC8FC9 /* PicWithPeeps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		274A737B13BBC31E00DC8FC9 /* PicWithPeepsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274A739213BBC31E00DC8FC9 /* Build configuration list for PBXNativeTarget "PicWithPeepsTests" */;
+			buildPhases = (
+				274A737713BBC31E00DC8FC9 /* Sources */,
+				274A737813BBC31E00DC8FC9 /* Frameworks */,
+				274A737913BBC31E00DC8FC9 /* Resources */,
+				274A737A13BBC31E00DC8FC9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274A738113BBC31E00DC8FC9 /* PBXTargetDependency */,
+			);
+			name = PicWithPeepsTests;
+			productName = PicWithPeepsTests;
+			productReference = 274A737C13BBC31E00DC8FC9 /* PicWithPeepsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		274A734F13BBC31D00DC8FC9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 274A735213BBC31D00DC8FC9 /* Build configuration list for PBXProject "PicWithPeeps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 274A734D13BBC31D00DC8FC9;
+			productRefGroup = 274A735913BBC31D00DC8FC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				274A735713BBC31D00DC8FC9 /* PicWithPeeps */,
+				274A737B13BBC31E00DC8FC9 /* PicWithPeepsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		274A735613BBC31D00DC8FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A736713BBC31D00DC8FC9 /* InfoPlist.strings in Resources */,
+				274A737013BBC31D00DC8FC9 /* MainWindow.xib in Resources */,
+				274A737613BBC31E00DC8FC9 /* PicWithPeepsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A737913BBC31E00DC8FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A738713BBC31E00DC8FC9 /* InfoPlist.strings in Resources */,
+				274A738A13BBC31E00DC8FC9 /* PicWithPeepsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		274A737A13BBC31E00DC8FC9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		274A735413BBC31D00DC8FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A736A13BBC31D00DC8FC9 /* main.m in Sources */,
+				274A736D13BBC31D00DC8FC9 /* PicWithPeepsAppDelegate.m in Sources */,
+				274A737313BBC31D00DC8FC9 /* PicWithPeepsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A737713BBC31E00DC8FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A738C13BBC31E00DC8FC9 /* PicWithPeepsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		274A738113BBC31E00DC8FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274A735713BBC31D00DC8FC9 /* PicWithPeeps */;
+			targetProxy = 274A738013BBC31E00DC8FC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		274A736513BBC31D00DC8FC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274A736613BBC31D00DC8FC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		274A736E13BBC31D00DC8FC9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274A736F13BBC31D00DC8FC9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		274A737413BBC31E00DC8FC9 /* PicWithPeepsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274A737513BBC31E00DC8FC9 /* en */,
+			);
+			name = PicWithPeepsViewController.xib;
+			sourceTree = "<group>";
+		};
+		274A738513BBC31E00DC8FC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274A738613BBC31E00DC8FC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		274A738D13BBC31E00DC8FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		274A738E13BBC31E00DC8FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		274A739013BBC31E00DC8FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicWithPeeps/PicWithPeeps-Prefix.pch";
+				INFOPLIST_FILE = "PicWithPeeps/PicWithPeeps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		274A739113BBC31E00DC8FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicWithPeeps/PicWithPeeps-Prefix.pch";
+				INFOPLIST_FILE = "PicWithPeeps/PicWithPeeps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		274A739313BBC31E00DC8FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PicWithPeeps.app/PicWithPeeps";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicWithPeepsTests/PicWithPeepsTests-Prefix.pch";
+				INFOPLIST_FILE = "PicWithPeepsTests/PicWithPeepsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		274A739413BBC31E00DC8FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PicWithPeeps.app/PicWithPeeps";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicWithPeepsTests/PicWithPeepsTests-Prefix.pch";
+				INFOPLIST_FILE = "PicWithPeepsTests/PicWithPeepsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		274A735213BBC31D00DC8FC9 /* Build configuration list for PBXProject "PicWithPeeps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274A738D13BBC31E00DC8FC9 /* Debug */,
+				274A738E13BBC31E00DC8FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274A738F13BBC31E00DC8FC9 /* Build configuration list for PBXNativeTarget "PicWithPeeps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274A739013BBC31E00DC8FC9 /* Debug */,
+				274A739113BBC31E00DC8FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		274A739213BBC31E00DC8FC9 /* Build configuration list for PBXNativeTarget "PicWithPeepsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274A739313BBC31E00DC8FC9 /* Debug */,
+				274A739413BBC31E00DC8FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 274A734F13BBC31D00DC8FC9 /* Project object */;
+}
